@@ -72,7 +72,7 @@ Las plantillas <code class="path">index.hbs</code> y <code class="path">post.hbs
 
 ### Partials <a id="partials"></a>
 
-You can also optionally add a <code class="path">partials</code> directory to your theme. This should include any part templates you want to use across your blog, for example <code class="path">list-post.hbs</code> might include your template for outputting a single post in a list, which might then be used on the homepage, and in future archive & tag pages. To output the <code class="path">list-post.hbs</code> example you would use `{{> list-post}}`. <code class="path">partials</code> is also where you can put templates to override the built-in templates used by certain helpers like pagination. Including a <code class="path">pagination.hbs</code> file inside <code class="path">partials</code> will let you specify your own HTML for pagination.
+También puedes añadir opcionalmente un <code class="path">partials</code> a tu tema. Este debe incluir cualquier plantilla parcial que desees utilizar en tu blog, por ejemplo <code class="path">list-post.hbs</code> podría incluir tu plantilla para generar  un solo post en una lista, que podría ser utilizada en la página principal, y en las futuras páginas de archivo y etiquetas. Para generar el ejemplo <code class="path">list-post.hbs</code> lo que utilizaras es `{{> list-post}}`. <code class="path">partials</code> is also where you can put templates to override the built-in templates used by certain helpers like pagination. Including a <code class="path">pagination.hbs</code> file inside <code class="path">partials</code> will let you specify your own HTML for pagination.
 
 ### default.hbs <a id="default-layout"></a>
 
